@@ -1,0 +1,12 @@
+# Ignore system and user data directories
+AppData/
+Documents/
+Downloads/
+Music/
+Pictures/
+Videos/
+Desktop/
+NTUSER.*
+*.idx
+*.tmp
+*.log
