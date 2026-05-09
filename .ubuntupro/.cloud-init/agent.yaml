@@ -1,0 +1,4 @@
+#cloud-config
+# This file was generated automatically and must not be edited
+ubuntu_pro:
+    token: C13ooidsmWBYbNCXpfmsybiFEm9NVg

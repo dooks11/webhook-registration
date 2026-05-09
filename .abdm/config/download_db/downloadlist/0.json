@@ -1,0 +1,28 @@
+{
+    "type": "http",
+    "link": "https://www.ipvanish.com/software/setup-prod-v2/ipvanish-setup.exe",
+    "headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Microsoft Edge\";v=\"145\", \"Chromium\";v=\"145\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+    },
+    "username": null,
+    "password": null,
+    "downloadPage": "https://www.ipvanish.com/vpn-setup/windows/",
+    "userAgent": null,
+    "serverETag": null,
+    "id": 0,
+    "folder": "C:\\Users\\Admin\\Downloads\\ABDM\\Programs",
+    "name": "ipvanish-setup.exe",
+    "contentLength": 129989384,
+    "dateAdded": 1772409447396,
+    "startTime": 1772409449455,
+    "completeTime": 1772409452189,
+    "status": "Completed",
+    "preferredConnectionCount": null,
+    "speedLimit": 0,
+    "fileChecksum": null
+}

@@ -1,0 +1,6 @@
+
+======= STARTUP =======
+time=2026-05-09T03:37:46-04:00 level=warning msg=config: could not validate subscription against Microsoft Store: could not get the Ubuntu Pro token from the Microsoft Store: couldn't get a Microsoft-Store-provided Ubuntu Pro token: couldn't download auth token from the contracts server: server replied with an error: Code 404, 404 page not found
+
+time=2026-05-09T03:37:46-04:00 level=warning msg=Landscape: service disabled: could not connect to Landscape server: could not extract Windows settings from the config: missing configuration: Landscape configuration
+time=2026-05-09T14:52:27-04:00 level=warning msg=[[Ubuntu-22.04:919228]] couldn't send logs to client
