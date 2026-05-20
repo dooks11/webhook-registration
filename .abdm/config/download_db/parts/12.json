@@ -1,0 +1,10 @@
+{
+    "type": "ranges",
+    "list": [
+        {
+            "from": 0,
+            "to": null,
+            "current": 0
+        }
+    ]
+}

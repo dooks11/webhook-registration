@@ -1,0 +1,14 @@
+2026-04-21 14:56:30.046539 INFO main: Starting Ubuntu Pro for WSL app with settings Settings(purchase: disabled, landscape: enabled)
+2026-04-21 14:56:30.052533 INFO app: Pushed new route: /startup from null
+2026-04-21 14:56:34.549601 INFO app: Pushed new route: /subscribe-now from /startup
+2026-04-21 15:03:22.901466 INFO subscribe_now: Submitting Pro token C1**************************Vg
+2026-04-21 15:03:22.945907 INFO app: Pushed new route: /skip-landscape from /subscribe-now
+2026-04-21 15:03:28.224302 INFO app: Pushed new route: /subscription-status from /skip-landscape
+2026-04-21 15:03:42.986296 INFO app: Pushed new route: /configure-landscape-late from /subscription-status
+2026-04-21 15:03:49.297725 INFO app: Popped route: /configure-landscape-late back to /subscription-status
+2026-04-21 15:03:50.504044 INFO subscription_status: Detach Pro requested.
+2026-04-21 15:03:50.526659 INFO app: Popped route: /subscription-status back to /subscribe-now
+2026-04-21 15:03:54.462329 INFO subscribe_now: Submitting Pro token C1**************************Vg
+2026-04-21 15:03:54.487540 INFO app: Pushed new route: /skip-landscape from /subscribe-now
+2026-04-21 15:04:01.379206 INFO app: Pushed new route: /configure-landscape from /skip-landscape
+2026-04-21 15:04:38.328794 INFO app: Popped route: /configure-landscape back to /skip-landscape

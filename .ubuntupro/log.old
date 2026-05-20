@@ -1,0 +1,5 @@
+
+======= STARTUP =======
+time=2026-04-20T20:46:18-04:00 level=warning msg=config: could not validate subscription against Microsoft Store: could not get the Ubuntu Pro token from the Microsoft Store: couldn't get a Microsoft-Store-provided Ubuntu Pro token: couldn't download auth token from the contracts server: failed to execute the GET request: Get "https://contracts.canonical.com/v1/token": dial tcp: lookup contracts.canonical.com: no such host
+time=2026-04-20T20:46:18-04:00 level=warning msg=Landscape: service disabled: could not connect to Landscape server: could not extract Windows settings from the config: missing configuration: Landscape configuration
+time=2026-05-08T21:45:56-04:00 level=warning msg=[[Ubuntu-24.04:831035]] couldn't send logs to client

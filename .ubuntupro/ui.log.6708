@@ -1,0 +1,4 @@
+2026-04-21 15:15:16.992255 INFO main: Starting Ubuntu Pro for WSL app with settings Settings(purchase: disabled, landscape: enabled)
+2026-04-21 15:15:16.996244 INFO app: Pushed new route: /startup from null
+2026-04-21 15:15:17.112398 INFO app: Pushed new route: /subscription-status from /startup
+2026-04-21 15:16:18.552433 INFO app: Pushed new route: /configure-landscape-late from /subscription-status
