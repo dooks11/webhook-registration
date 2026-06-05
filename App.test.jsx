@@ -4,9 +4,10 @@ import App from './App';
 
 jest.mock(
   './WebhookRegistration',
-  () => function WebhookRegistration() {
-    return <div data-testid="webhook-form">WebhookRegistration</div>;
-  }
+  () =>
+    function WebhookRegistration() {
+      return <div data-testid="webhook-form">WebhookRegistration</div>;
+    }
 );
 
 describe('App', () => {
