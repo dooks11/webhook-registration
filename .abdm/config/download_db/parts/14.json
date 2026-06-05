@@ -1,10 +1,10 @@
 {
-    "type": "ranges",
-    "list": [
-        {
-            "from": 0,
-            "to": 31867,
-            "current": 31868
-        }
-    ]
+  "type": "ranges",
+  "list": [
+    {
+      "from": 0,
+      "to": 31867,
+      "current": 31868
+    }
+  ]
 }

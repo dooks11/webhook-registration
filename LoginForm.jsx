@@ -53,7 +53,12 @@ export default function LoginForm() {
           onChange={(e) => setUsername(e.target.value)}
           placeholder="Enter your username"
           required
-          style={{ width: '100%', padding: '0.5rem', marginTop: '0.25rem', marginBottom: '0.75rem' }}
+          style={{
+            width: '100%',
+            padding: '0.5rem',
+            marginTop: '0.25rem',
+            marginBottom: '0.75rem',
+          }}
         />
         <label htmlFor="auth-password">Password</label>
         <input
@@ -77,12 +82,28 @@ export default function LoginForm() {
         </button>
       </form>
       {displayError && (
-        <div style={{ marginTop: '1rem', padding: '0.75rem', borderRadius: '4px', backgroundColor: '#ffe6e6', color: '#900' }}>
+        <div
+          style={{
+            marginTop: '1rem',
+            padding: '0.75rem',
+            borderRadius: '4px',
+            backgroundColor: '#ffe6e6',
+            color: '#900',
+          }}
+        >
           {displayError}
         </div>
       )}
       {success && (
-        <div style={{ marginTop: '1rem', padding: '0.75rem', borderRadius: '4px', backgroundColor: '#e6ffed', color: '#060' }}>
+        <div
+          style={{
+            marginTop: '1rem',
+            padding: '0.75rem',
+            borderRadius: '4px',
+            backgroundColor: '#e6ffed',
+            color: '#060',
+          }}
+        >
           {mode === 'login' ? 'Logged in successfully!' : 'Registered and logged in successfully!'}
         </div>
       )}

@@ -46,7 +46,9 @@ describe('authService', () => {
         json: () => Promise.reject(new Error('Invalid JSON')),
       });
 
-      await expect(login('alice', 'password')).rejects.toThrow('Login failed: 500 Internal Server Error');
+      await expect(login('alice', 'password')).rejects.toThrow(
+        'Login failed: 500 Internal Server Error'
+      );
     });
   });
 

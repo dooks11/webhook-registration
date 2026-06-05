@@ -1,11 +1,23 @@
 import React from 'react';
-import { render, screen, fireEvent, waitFor } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import App from './App';
 
 // Mock child components to isolate App routing logic
-jest.mock('./LoginForm', () => () => <div data-testid="login-form">LoginForm</div>);
-jest.mock('./WebhookRegistration', () => () => <div data-testid="webhook-form">WebhookRegistration</div>);
+jest.mock(
+  './LoginForm',
+  () =>
+    function LoginForm() {
+      return <div data-testid="login-form">LoginForm</div>;
+    }
+);
+jest.mock(
+  './WebhookRegistration',
+  () =>
+    function WebhookRegistration() {
+      return <div data-testid="webhook-form">WebhookRegistration</div>;
+    }
+);
 
 const mockLogout = jest.fn();
 

@@ -54,9 +54,7 @@
     "tengu_sedge_lantern_holdback": false,
     "tengu_file_write_optimization": false,
     "tengu_birthday_hat": false,
-    "tengu_tool_search_unsupported_models": [
-      "haiku"
-    ],
+    "tengu_tool_search_unsupported_models": ["haiku"],
     "tengu-off-switch": {
       "activated": false
     },
@@ -168,9 +166,7 @@
       "minUserTurnsBeforeFeedback": 5,
       "minUserTurnsBetweenFeedback": 25,
       "hideThanksAfterMs": 3000,
-      "onForModels": [
-        "*"
-      ],
+      "onForModels": ["*"],
       "probability": 0.01
     },
     "tengu_bridge_requires_action_details": true,
@@ -433,13 +429,7 @@
   "mcpServers": {
     "MCP_DOCKER": {
       "command": "docker",
-      "args": [
-        "mcp",
-        "gateway",
-        "run",
-        "--profile",
-        "cloud"
-      ],
+      "args": ["mcp", "gateway", "run", "--profile", "cloud"],
       "env": {
         "LOCALAPPDATA": "C:\\Users\\Admin\\AppData\\Local",
         "ProgramData": "C:\\ProgramData",

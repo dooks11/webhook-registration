@@ -1,1 +1,7 @@
-{"version":"2","features":[{"name":"developer","enabled":true},{"name":"scout","enabled":true}]}
+{
+  "version": "2",
+  "features": [
+    { "name": "developer", "enabled": true },
+    { "name": "scout", "enabled": true }
+  ]
+}

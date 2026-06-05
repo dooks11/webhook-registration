@@ -41,7 +41,9 @@ export async function register(username, password) {
 
   if (!response.ok) {
     const errorData = await response.json().catch(() => ({}));
-    throw new Error(errorData.message || `Registration failed: ${response.status} ${response.statusText}`);
+    throw new Error(
+      errorData.message || `Registration failed: ${response.status} ${response.statusText}`
+    );
   }
 
   const data = await response.json();

@@ -12,7 +12,14 @@ function AppContent() {
 
   return (
     <>
-      <div style={{ display: 'flex', justifyContent: 'flex-end', padding: '1rem', fontFamily: 'sans-serif' }}>
+      <div
+        style={{
+          display: 'flex',
+          justifyContent: 'flex-end',
+          padding: '1rem',
+          fontFamily: 'sans-serif',
+        }}
+      >
         <button onClick={logout} style={{ padding: '0.5rem 1rem' }}>
           Log Out
         </button>
