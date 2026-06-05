@@ -11,6 +11,11 @@ on:
         description: 'Scrape timeout in seconds'
         required: false
         default: '30'
+      quiet:
+        description: 'Suppress non-essential output (only show results)'
+        type: boolean
+        required: false
+        default: false
 
 jobs:
   scrape:
@@ -34,4 +39,4 @@ jobs:
         env:
           TARGET_URL: ${{ github.event.inputs.target_url }}
           TIMEOUT: ${{ github.event.inputs.timeout }}
-        run: python scrape_m3u8.py
+        run: python scrape_m3u8.py${{ github.event.inputs.quiet && ' --quiet' || '' }}
