@@ -68,6 +68,10 @@ function App() {
 
 The `Test` workflow (`.github/workflows/test.yml`) runs automatically on pushes and pull requests to `master` or `main`.
 
+## Contributing
+
+Contributions are welcome. Please open an issue or pull request on GitHub.
+
 ## License
 
 MIT
